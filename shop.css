@@ -1,0 +1,600 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('icomoon.eot?91eeid');
+    src: url('icomoon.eot?91eeid#iefix') format('embedded-opentype'), url('icomoon.ttf?91eeid') format('truetype'), url('icomoon.woff?91eeid') format('woff'), url('icomoon.svg?91eeid#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    /* -webkit-font-smoothing: antialiased; */
+    /* -moz-osx-font-smoothing: grayscale; */
+}
+
+html,
+body {
+    overflow: hidden;
+    height: 100%;
+    background: #00ffff;
+}
+
+.fa {
+    top: 50%;
+    margin-left: 36.6%;
+    float: middle;
+    text-align: middle;
+    width: 100px;
+    height: 75px;
+}
+
+.icon-amazon-icon-1 .path1:before {
+    content: "\41";
+    font-size: 70px;
+    color: rgb(255, 153, 0);
+}
+
+.icon-amazon-icon-1 .path2:before {
+    content: "\42";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+}
+
+
+/* .icon-336235 .path5:before { */
+
+
+/* content: "\4a"; */
+
+
+/* font-size: 70px; */
+
+
+/* margin-left: -1.009765625em; */
+
+
+/* color: rgb(255, 255, 255); */
+
+
+/* } */
+
+
+/* .icon-336235 .path6:before { */
+
+
+/* content: "\4b"; */
+
+
+/* / font-size: 70px; */
+
+
+/* margin-left: -1.009765625em; */
+
+
+/* color: rgb(0, 185, 9); */
+
+
+/* } */
+
+
+/* .icon-336235 .path7:before { */
+
+
+/* content: "\4c"; */
+
+
+/* font-size: 70px; */
+
+
+/* margin-left: -1.009765625em; */
+
+
+/* color: rgb(0, 0, 0); */
+
+
+/* } */
+
+.icon-336235 .path8:before {
+    content: "\4d";
+    font-size: 70px;
+    margin-left: -1.009765625em;
+    color: rgba(1, 36, 194, 0.815);
+}
+
+
+/* .icon-336235 .path9:before { */
+
+
+/* content: "\4e"; */
+
+
+/* font-size: 70px; */
+
+
+/* margin-left: -1.009765625em; */
+
+
+/* color: rgb(255, 255, 255); */
+
+
+/* } */
+
+
+/* .icon-336235 .path10:before { */
+
+
+/* content: "\4f"; */
+
+
+/* font-size: 70px; */
+
+
+/* margin-left: -1.009765625em; */
+
+
+/* color: rgb(255, 255, 255); */
+
+
+/* } */
+
+
+/* .icon-336235 .path11:before { */
+
+
+/* content: "\50"; */
+
+
+/* font-size: 70px; */
+
+
+/* margin-left: -1.009765625em; */
+
+
+/* color: rgb(255, 255, 255); */
+
+
+/* } */
+
+
+/* .icon-336235 .path12:before { */
+
+
+/* content: "\51"; */
+
+
+/* font-size: 70px; */
+
+
+/* margin-left: -1.009765625em; */
+
+
+/* color: rgb(255, 255, 255); */
+
+
+/* } */
+
+.icon-ajio-seeklogocom .path1:before {
+    content: "\31";
+    font-size: 80px;
+    color: rgb(67, 95, 116);
+}
+
+.icon-ajio-seeklogocom .path2:before {
+    content: "\32";
+    font-size: 80px;
+    margin-left: -1em;
+    color: rgb(67, 95, 116);
+}
+
+.icon-ajio-seeklogocom .path3:before {
+    content: "\33";
+    font-size: 80px;
+    margin-left: -1em;
+    color: rgb(67, 95, 116);
+}
+
+.icon-ajio-seeklogocom .path4:before {
+    content: "\34";
+    font-size: 80px;
+    margin-left: -1em;
+    color: rgb(67, 95, 116);
+}
+
+.icon-ajio-seeklogocom .path5:before {
+    content: "\35";
+    font-size: 80px;
+    margin-left: -1em;
+    color: rgb(67, 95, 116);
+}
+
+.icon-ajio-seeklogocom .path6:before {
+    content: "\36";
+    font-size: 80px;
+    margin-left: -1em;
+    color: rgb(67, 95, 116);
+}
+
+.icon-ajio-seeklogocom .path7:before {
+    content: "\37";
+    font-size: 80px;
+    margin-left: -1em;
+    color: rgb(67, 95, 116);
+}
+
+.icon-ajio-seeklogocom .path8:before {
+    content: "\38";
+    font-size: 80px;
+    margin-left: -1em;
+    color: rgb(67, 95, 116);
+}
+
+.icon-myntra-seeklogocom-1 .path1:before {
+    content: "\30";
+    color: rgb(243, 115, 32);
+}
+
+.icon-myntra-seeklogocom-1 .path2:before {
+    content: "\39";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(243, 115, 32);
+}
+
+.icon-myntra-seeklogocom-1 .path3:before {
+    content: "\3a";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(243, 115, 32);
+}
+
+.icon-myntra-seeklogocom-1 .path4:before {
+    content: "\3b";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(243, 115, 32);
+}
+
+.icon-myntra-seeklogocom-1 .path5:before {
+    content: "\3c";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(243, 115, 32);
+}
+
+.icon-myntra-seeklogocom-1 .path6:before {
+    content: "\3d";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(241, 94, 34);
+}
+
+.icon-myntra-seeklogocom-1 .path7:before {
+    content: "\3e";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(241, 94, 34);
+}
+
+.icon-myntra-seeklogocom-1 .path8:before {
+    content: "\3f";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(241, 94, 34);
+}
+
+.icon-myntra-seeklogocom-1 .path9:before {
+    content: "\40";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(241, 94, 34);
+}
+
+.icon-myntra-seeklogocom-1 .path10:before {
+    content: "\43";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(241, 94, 34);
+}
+
+.icon-myntra-seeklogocom-1 .path11:before {
+    content: "\44";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(241, 94, 34);
+}
+
+.icon-myntra-seeklogocom-1 .path12:before {
+    content: "\45";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(236, 0, 139);
+}
+
+.icon-myntra-seeklogocom-1 .path13:before {
+    content: "\52";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(241, 94, 34);
+}
+
+.icon-myntra-seeklogocom-1 .path14:before {
+    content: "\53";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(236, 0, 139);
+}
+
+.icon-myntra-seeklogocom-1 .path15:before {
+    content: "\54";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(241, 94, 34);
+}
+
+.icon-myntra-seeklogocom-1 .path16:before {
+    content: "\55";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(236, 0, 139);
+}
+
+.icon-myntra-seeklogocom-1 .path17:before {
+    content: "\56";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(241, 58, 177);
+}
+
+.icon-myntra-seeklogocom-1 .path18:before {
+    content: "\57";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(253, 145, 60);
+}
+
+.icon-myntra-seeklogocom-1 .path19:before {
+    content: "\58";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(240, 85, 36);
+}
+
+.icon-myntra-seeklogocom-1 .path20:before {
+    content: "\59";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(253, 145, 60);
+}
+
+.icon-myntra-seeklogocom-1 .path21:before {
+    content: "\5a";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(240, 85, 36);
+}
+
+.icon-myntra-seeklogocom-1 .path22:before {
+    content: "\5b";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(241, 58, 177);
+}
+
+.icon-myntra-seeklogocom-1 .path23:before {
+    content: "\5c";
+    font-size: 70px;
+    margin-left: -1em;
+    color: rgb(240, 85, 36);
+}
+
+* {
+    Box-sizing: Border-box;
+}
+
+#menu {
+    list-style: none;
+    font-size: 200%;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    margin: -100px 0 0 -100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 0;
+    font-size: 70px;
+    border-radius: 500px;
+    border-radius: 50.8%;
+    background: #a3173a;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.logo-wood {
+    height: 145px;
+    width: 145px;
+    font-size: 70px;
+    margin: 0 0 0 -72.5px;
+    position: relative;
+    top: 27.5px;
+    left: 50%;
+    border: solid 10px rgb(236, 221, 220);
+    border-radius: 50px;
+    border-radius: 30%;
+    background: #66eb3e;
+    z-index: 2;
+}
+
+.logo-woodstock {
+    height: 100px;
+    width: 25px;
+    font-size: 70px;
+    margin: 0 0 0 -12.5px;
+    position: relative;
+    top: -10px;
+    left: 50%;
+    background: #ebe0e0;
+}
+
+#menu:not(:target)>a:first-of-type,
+#menu:target>a:last-of-type {
+    opacity: 1;
+    z-index: 1;
+}
+
+#menu:target>.logo {
+    transition: transform 2s linear;
+    transform: rotate(360deg);
+}
+
+#menu:not(:target)>.logo {
+    transition: transform 0 linear;
+}
+
+.menu-item {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -50px 0 0 -50px;
+    border-radius: 500px;
+    border-radius: 50%;
+    /* background: #ffffff; */
+    transform: translate(0px, 0px);
+    transition: transform 0.5s;
+}
+
+.menu-item a {
+    color: rgb(247, 247, 247);
+    position: relative;
+    top: 35%;
+    left: 30%;
+    text-decoration: none;
+}
+
+#menu:target>.menu-item:nth-child(3) {
+    transition-delay: 0s;
+    transform: translate(0px, 200px);
+}
+
+#menu:target>.menu-item:nth-child(4) {
+    transition-delay: 0.5s;
+    transform: translate(-200px, 0px);
+}
+
+#menu:target>.menu-item:nth-child(5) {
+    transition-delay: 1s;
+    transform: translate(0px, -200px);
+}
+
+#menu:target>.menu-item:nth-child(6) {
+    transition-delay: 1.5s;
+    transform: translate(200px, 0px);
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background: white;
+    animation: ripple 15s infinite;
+    box-shadow: 0px 0px 1px 0px #508fb9;
+}
+
+.small {
+    width: 200px;
+    height: 200px;
+    left: -100px;
+    bottom: -100px;
+}
+
+.medium {
+    width: 400px;
+    height: 400px;
+    left: -200px;
+    bottom: -200px;
+}
+
+.large {
+    width: 600px;
+    height: 600px;
+    left: -300px;
+    bottom: -300px;
+}
+
+.xlarge {
+    width: 800px;
+    height: 800px;
+    left: -400px;
+    bottom: -400px;
+}
+
+.xxlarge {
+    width: 1000px;
+    height: 1000px;
+    left: -500px;
+    bottom: -500px;
+}
+
+.shade1 {
+    opacity: 0.2;
+}
+
+.shade2 {
+    opacity: 0.5;
+}
+
+.shade3 {
+    opacity: 0.7;
+}
+
+.shade4 {
+    opacity: 0.8;
+}
+
+.shade5 {
+    opacity: 0.9;
+}
+
+@keyframes ripple {
+    0% {
+        transform: scale(0.8);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(0.8);
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.arrow-left-circle-fil {
+    margin-top: 0px;
+    width: 10%;
+    height: 10%;
+    fill: #000000;
+    margin-right: 10px;
+    transition: all .1s ease-in-out;
+}
+
+.blog-back:hover .arrow-left-circle-fil {
+    fill: #df1d1d;
+    margin-right: 10px;
+    transform: translate(-10px, 0);
+}
