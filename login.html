@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DB LOGIN</title>
+    <link rel="stylesheet" href="login.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-auth.js"></script>
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <!-- <button>back</button>
+    <a href="preface.html" class="blog-back">
+        <svg class="arrow-left-circle-fil" xmlns="http://www.w3.org/2000/svg" postion="left" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+            <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+          </svg></a> -->
+    <input type="radio" id="chk" name="al" style="display: none;">
+    <input type="radio" id="chk1" name="al" style="display: none;">
+    <input type="radio" id="chk2" name="al" style="display: none;">
+    <input type="radio" id="chk3" name="al" style="display: none;">
+    <div class="box">
+        <div class="a">
+            <img class="logo" src="DB.jpg" alt="">
+            <label for="chk1">Login</label>
+            <label for="chk2" id="sup">Sign up</label>
+        </div>
+        <div class="b">
+            <img class="logo2" src="DB.jpg" alt="">
+            <form action="" class="frmm">
+                <h6 class="title1">SIGN-UP </h6>
+                <input type="text" id="fname" placeholder="Enter Full Name">
+                <input type="text" id="uname" placeholder="Enter Username">
+                <input type="text" id="email" placeholder="Enter Email Address">
+                <input type="password" id="password" placeholder="Enter Password">
+                <input type="password" id="cpassword" placeholder="confirm Password">
+                <input type="button" onclick="signUp()" id="btns" value="Sign up">
+                <label for="chk" id="btm">Back</label>
+                <br>
+                <br>
+                <br>
+            </form>
+        </div>
+        <div class="c">
+            <form action="" class="frm">
+                <img class="logo1" src="DB.jpg" alt="">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h6 class="title">LOGIN </h6>
+                <input type="text" id="emaill" placeholder="Enter Email">
+                <input type="password" id="passwordd" placeholder="Enter Password">
+                <input type="button" onclick="signIn()" value="Login" id="btn">
+                <h1 class="titleA">LOGIN WITH</h1>
+                <a class="gbtn" href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;service=mail&amp;sacu=1&amp;rip=1&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin "> <i class="fab fa-google"></i> </a>
+                <a class="gbtn" href="https://m.facebook.com/login/?next&amp;ref=dbl&amp;fl&amp;refid=8"> <i class="fab fa-facebook-f"></i> </a>
+                <hr>
+                <br>
+                <label for="chk3" id="bt">Forgot Password ? </label>
+                <label for="chk" id="btm">Back</label>
+            </form>
+        </div>
+        <div class="d">
+            <form action="" class="frm1">
+                <img class="logo3" src="DB.jpg" alt="">
+                <h6 class="title2">FORGOT PASSWORD </h6>
+                <input type="text" id="mail" placeholder="Enter Email Address">
+                <input type="button" value="Reset" id="btnn">
+                <label for="chk" id="bts">Back </label>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

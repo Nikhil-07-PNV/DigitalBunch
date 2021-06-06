@@ -1,0 +1,502 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: 1s ease;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    position: absolute;
+    width: 350px;
+    height: 10px;
+    background: none;
+    left: calc(50% - 175px);
+    top: calc(50% - 350px);
+    transform-style: preserve-3d;
+}
+
+
+/* 
+.a1 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    right: 800px;
+    top: 0px;
+    position: absolute;
+} */
+
+
+/* a {
+    text-decoration: none;
+}
+
+.arrow-left-circle-fil {
+    margin-top: 0px;
+    width: 10%;
+    height: 10%;
+    top: 0px;
+    position: left;
+    fill: #000000;
+    margin-right: 10px;
+    transition: all .1s ease-in-out;
+}
+
+.blog-back:hover .arrow-left-circle-fil {
+    fill: #e4d722;
+    margin-right: 10px;
+    transform: translate(-10px, 0);
+} */
+
+.logo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 10px;
+    top: 120px;
+}
+
+.logo1 {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 0px;
+    top: 30px;
+}
+
+.logo2 {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 10px;
+    top: 50px;
+}
+
+.logo3 {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 10px;
+    top: 120px;
+}
+
+.box div {
+    width: 450px;
+    height: 700px;
+    position: absolute;
+    background-image: radial-gradient(#5f9ea0, #e7e7e4);
+    box-shadow: 0px 0px 5px #4169e1, 0px 0px 5px #4169e1, inset 0px 0px 5px #4169e1, inset 0px 0px 5px #4169e1;
+    border: 3px solid #00ffff;
+}
+
+.box div:nth-child(5) {
+    height: 350px;
+}
+
+.a {
+    transform: rotateY(0deg) translateZ(175px);
+    transform-style: preserve-3d;
+}
+
+.b {
+    transform: rotateY(90deg) translateZ(175px);
+    transform-style: preserve-3d;
+}
+
+.c {
+    transform: rotateY(180deg) translateZ(175px);
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform-style: preserve-3d;
+}
+
+.d {
+    transform: rotateY(270deg) translateZ(175px);
+    transform-style: preserve-3d;
+}
+
+.e {
+    transform: rotateX(-90deg) translateZ(325px);
+    transform-style: preserve-3d;
+}
+
+.gbtn {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+    top: 150px;
+}
+
+.gbtn i {
+    line-height: 90px;
+    font-size: 26px;
+    transition: 0.2s linear;
+}
+
+.gbtn:hover i {
+    transform: scale(1.3);
+    color: #f1f1f1;
+}
+
+.gbtn::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #3498db;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+
+.gbtn:hover::before {
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+
+@keyframes aaa {
+    0% {
+        left: -110%;
+        top: 90%;
+    }
+    50% {
+        left: 10%;
+        top: -30%;
+    }
+    100% {
+        top: -10%;
+        left: -10%;
+    }
+}
+
+.a label {
+    position: relative;
+    width: 200px;
+    left: 120px;
+    top: 170px;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    margin: 20px 0px;
+    text-align: center;
+    display: block;
+    background-image: linear-gradient(45deg, #daa520, #48d1cc);
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px #ff44f8, 0px 0px 30px #008080;
+    cursor: pointer;
+}
+
+#sup {
+    background-image: linear-gradient(45deg, #daa520, #48d1cc);
+    color: white;
+    cursor: pointer;
+}
+
+#btn {
+    top: 60px;
+    background-image: linear-gradient(45deg, #daa520, #48d1cc);
+    color: white;
+    cursor: pointer;
+}
+
+#btns {
+    top: 150px;
+    background-image: linear-gradient(45deg, #daa520, #48d1cc);
+    color: white;
+    cursor: pointer;
+}
+
+#btnl {
+    top: 80px;
+    background-image: linear-gradient(45deg, #daa520, #48d1cc);
+    color: white;
+    cursor: pointer;
+}
+
+#btnn {
+    top: 250px;
+    background-image: linear-gradient(45deg, #daa520, #48d1cc);
+    color: white;
+    cursor: pointer;
+}
+
+#btn:focus {
+    width: calc(100% - 80px);
+    left: 20px;
+}
+
+#btns:focus {
+    width: calc(100% - 80px);
+    left: 20px;
+}
+
+#btnn:focus {
+    width: calc(100% - 80px);
+    left: 40px;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    line-height: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #8d006c;
+    text-shadow: 0px 0px 20px #1e90ff;
+    position: absolute;
+    top: 150px;
+}
+
+.frm input {
+    position: relative;
+    width: calc(100% - 80px);
+    left: 40px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    top: 0px;
+    background: none;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px #ff44f8, 0px 0px 30px #ff44f8;
+    margin: 20px 0px;
+    font-size: 16px;
+}
+
+.frm input:focus {
+    width: calc(100% - 40px);
+    left: 20px;
+    background: #ffcb61;
+    box-shadow: 0px 0px 5px #ff44f8, 0px 0px 30px #ff44f8;
+}
+
+.title1 {
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #8d006c;
+    text-shadow: 0px 0px 20px #1e90ff;
+    position: absolute;
+    top: 150px;
+}
+
+.titleA {
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #8d006c;
+    text-shadow: 0px 0px 20px #1e90ff;
+    position: absolute;
+    top: 450px;
+}
+
+.frmm input {
+    position: relative;
+    width: calc(100% - 80px);
+    left: 40px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    top: 140px;
+    background: none;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px #ff44f8, 0px 0px 30px #ff44f8;
+    margin: 20px 0px;
+    font-size: 16px;
+}
+
+.frmm input:focus {
+    width: calc(100% - 40px);
+    left: 20px;
+    background: #ffcb61;
+    box-shadow: 0px 0px 5px #ff44f8, 0px 0px 30px #ff44f8;
+}
+
+.title2 {
+    width: 100%;
+    text-align: center;
+    line-height: 340px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #8d006c;
+    text-shadow: 0px 0px 20px #1e90ff;
+    position: absolute;
+}
+
+.frm1 input {
+    position: relative;
+    width: calc(100% - 80px);
+    left: 40px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    top: 220px;
+    background: none;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px #ff44f8, 0px 0px 30px #ff44f8;
+    margin: 20px 0px;
+    font-size: 16px;
+}
+
+.frm1 input:focus {
+    width: calc(100% - 40px);
+    left: 20px;
+    background: #ffcb61;
+    box-shadow: 0px 0px 5px #ff44f8, 0px 0px 30px #ff44f8;
+}
+
+#btm {
+    position: absolute;
+    bottom: 10px;
+    font-size: 20px;
+    color: #ff4500;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    left: 10px;
+}
+
+#bt {
+    position: absolute;
+    bottom: 310px;
+    font-size: 20px;
+    color: #ff4500;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    left: 10px;
+}
+
+#bts {
+    position: absolute;
+    bottom: 60px;
+    font-size: 20px;
+    color: #ff4500;
+    text-align: center;
+    width: 100%;
+    left: 10px;
+    cursor: pointer;
+}
+
+#chk:checked~.box {
+    transform: rotateY(-360deg);
+}
+
+#chk1:checked~.box {
+    transform: rotateY(180deg);
+}
+
+#chk2:checked~.box {
+    transform: rotateY(-90deg);
+}
+
+#chk3:checked~.box {
+    transform: rotateY(90deg);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+@-webkit-keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 50px 50px;
+    }
+}
+
+@-moz-keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 50px 50px;
+    }
+}
+
+@-o-keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 50px 50px;
+    }
+}
+
+@keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 50px 50px;
+    }
+}
+
+@-webkit-keyframes bg-scrolling {
+    0% {
+        background-position: 50px 50px;
+    }
+}
+
+@-moz-keyframes bg-scrolling {
+    0% {
+        background-position: 50px 50px;
+    }
+}
+
+@-o-keyframes bg-scrolling {
+    0% {
+        background-position: 50px 50px;
+    }
+}
+
+@keyframes bg-scrolling {
+    0% {
+        background-position: 50px 50px;
+    }
+}
+
+body {
+    margin-top: 13.5rem;
+    color: rgb(0, 0, 0);
+    font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+    text-align: center;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+    -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+    -moz-animation: bg-scrolling-reverse 0.92s infinite;
+    -o-animation: bg-scrolling-reverse 0.92s infinite;
+    animation: bg-scrolling-reverse 0.92s infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+body::before {
+    font-size: 8rem;
+    font-weight: 100;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
